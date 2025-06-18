@@ -86,7 +86,7 @@ Open a new PowerShell window, or run:
 #### Search text and files
 
 ```powershell
-Get-Content myfile.txt | grep "error" -i
+Get-Content myfile.txt | grep -i "error"
 Get-ChildItem | grep "log$"         # Search filenames
 ```
 
