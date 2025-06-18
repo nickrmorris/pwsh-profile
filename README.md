@@ -1,7 +1,6 @@
 # 🛠️ PowerShell Productivity Profile
 
-Supercharge your Windows PowerShell!
-This profile brings you the best of Unix-like command line utilities, smart Python/dev workflow helpers, and handy PowerShell shortcuts—all in one file. Perfect for developers, sysadmins, and power users.
+This profile brings some useful Unix-like command line utilities, smart Python/dev workflow helpers, and handy PowerShell shortcuts—all in one file.
 
 ---
 
