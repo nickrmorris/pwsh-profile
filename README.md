@@ -154,5 +154,3 @@ uptime
 Feel free to submit pull requests for new helper functions, bug fixes, or documentation improvements!
 
 ---
-
-*Inspired by the best of Linux, crafted for Windows PowerShell productivity.*
