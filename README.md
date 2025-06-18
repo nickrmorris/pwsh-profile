@@ -153,6 +153,6 @@ uptime
 
 ## 🤝 Contributing
 
-Feel free to submit pull requests for new helper functions, bug fixes, or documentation improvements!
+Feel free to submit pull requests for new functionality, bug fixes, or documentation improvements.
 
 ---
