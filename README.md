@@ -1,10 +1,10 @@
-# 🛠️ PowerShell Productivity Profile
+# PowerShell Productivity Profile
 
 This profile brings some useful Unix-like command line utilities, smart Python/dev workflow helpers, and handy PowerShell shortcuts—all in one file.
 
 ---
 
-## ✨ Features & Highlights
+## Features & Highlights
 
 ### Classic \*nix Commands (with PowerShell style)
 
@@ -34,7 +34,7 @@ This profile brings some useful Unix-like command line utilities, smart Python/d
 
 ---
 
-## 📦 Installation
+## Installation
 
 **Quick Start:**
 Download the `pwsh_profile.ps1` script from this repo, and add its contents to your PowerShell `$PROFILE`.
@@ -83,7 +83,7 @@ Open a new PowerShell window, or run:
 
 ---
 
-## 🏗️ Usage Examples
+## Usage Examples
 
 #### Search text and files
 
@@ -133,7 +133,7 @@ uptime
 
 ---
 
-## 🧩 Custom Aliases
+## Custom Aliases
 
 | Alias  | Expands to | Description                 |
 | ------ | ---------- | --------------------------- |
@@ -143,7 +143,7 @@ uptime
 
 ---
 
-## 📝 Tips
+## Tips
 
 * All functions work natively with pipelines:
   `Get-Content ... | grep ... | head`
@@ -151,7 +151,7 @@ uptime
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Feel free to submit pull requests for new functionality, bug fixes, or documentation improvements.
 
