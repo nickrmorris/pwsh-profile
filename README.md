@@ -1,11 +1,10 @@
-# 🛠️ PowerShell Productivity Profile
+# PowerShell Productivity Profile
 
-Supercharge your Windows PowerShell!
-This profile brings some of the best of Unix-like command line utilities, smart Python/dev workflow helpers, and handy PowerShell shortcuts—all in one file. Perfect for developers, sysadmins, and power users.
+This profile brings some useful Unix-like command line utilities, smart Python/dev workflow helpers, and handy PowerShell shortcuts—all in one file.
 
 ---
 
-## ✨ Features & Highlights
+## Features & Highlights
 
 ### Classic \*nix Commands (with PowerShell style)
 
@@ -35,10 +34,10 @@ This profile brings some of the best of Unix-like command line utilities, smart 
 
 ---
 
-## 📦 Installation
+## Installation
 
 **Quick Start:**
-Download the `profile.ps1` script from this repo, and add it to your PowerShell `$PROFILE`.
+Download the `pwsh_profile.ps1` script from this repo, and add its contents to your PowerShell `$PROFILE`.
 
 ### 1. Clone or Download
 
@@ -47,7 +46,7 @@ git clone https://github.com/nickrmorris/pwsh-profile.git
 cd pwsh-profile
 ```
 
-Or download `pwsh_profile.ps1` directly.
+Or [download `pwsh_profile.ps1`](./pwsh_profile.ps1) directly.
 
 ### 2. Back Up Your Existing Profile
 
@@ -57,18 +56,21 @@ if (Test-Path $PROFILE) { Copy-Item $PROFILE "$PROFILE.bak" }
 
 ### 3. Install This Profile
 
-Copy the script contents into your PowerShell profile:
+**Option 1: Append/replace by editing**
+Copy the contents of `pwsh_profile.ps1` and paste them into your PowerShell profile:
 
 ```powershell
 notepad $PROFILE
 ```
 
-Paste the contents of `profile.ps1` and save.
+* Paste the contents and save.
 
-Or, to **overwrite your profile** directly (**CAUTION:** This will replace your profile!):
+**Option 2: Overwrite your profile directly**
+
+> ⚠️ *This will replace your current profile script with this one!*
 
 ```powershell
-Copy-Item .\profile.ps1 $PROFILE -Force
+Copy-Item .\pwsh_profile.ps1 $PROFILE -Force
 ```
 
 ### 4. Reload PowerShell
@@ -81,12 +83,12 @@ Open a new PowerShell window, or run:
 
 ---
 
-## 🏗️ Usage Examples
+## Usage Examples
 
 #### Search text and files
 
 ```powershell
-Get-Content myfile.txt | grep -i "error"
+Get-Content myfile.txt | grep "error" -i
 Get-ChildItem | grep "log$"         # Search filenames
 ```
 
@@ -131,7 +133,7 @@ uptime
 
 ---
 
-## 🧩 Custom Aliases
+## Custom Aliases
 
 | Alias  | Expands to | Description                 |
 | ------ | ---------- | --------------------------- |
@@ -141,7 +143,7 @@ uptime
 
 ---
 
-## 📝 Tips
+## Tips
 
 * All functions work natively with pipelines:
   `Get-Content ... | grep ... | head`
@@ -149,8 +151,8 @@ uptime
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Feel free to submit pull requests for new helper functions, bug fixes, or documentation improvements!
+Feel free to submit pull requests for new functionality, bug fixes, or documentation improvements.
 
 ---
